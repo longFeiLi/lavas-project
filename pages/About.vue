@@ -1,10 +1,8 @@
 <template>
     <div class="page-index">
         <head-nav></head-nav>
-        <h2>欢迎Lovell小窝</h2>
-        <h4>如果你年轻时没有学会思考，那就永远学不会思考。</h4>
-         <!-- link to index -->
-        <router-link to="/detail/1">Back to Detail</router-link>
+        <h2>关于我们</h2>
+        <h4>作者:longfeili0925@gmail.com</h4>
     </div>
 </template>
 
@@ -18,8 +16,8 @@ export default {
       HeadNav
     },
     metaInfo: {
-        title: 'Home',
-        titleTemplate: 'lovell-有故事的网站',
+        title: 'About',
+        titleTemplate: 'lovell-关于我们',
         meta: [
             {name: 'keywords', content: 'lovell love longfei ,feifei,龙飞 龙飞小窝 龙飞Lovell'},
             {name: 'description', content: 'lovell分享各种经典句子，个人学习心得体会'}
