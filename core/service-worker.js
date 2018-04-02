@@ -6,15 +6,15 @@
 
 /* globals WorkboxSW */
 
-// const workboxSW = new WorkboxSW({
-//     cacheId: 'lavas-cache',
-//     ignoreUrlParametersMatching: [/^utm_/],
-//     skipWaiting: true,
-//     clientsClaim: true
-// });
+const workboxSW = new WorkboxSW({
+    cacheId: 'lavas-cache',
+    ignoreUrlParametersMatching: [/^utm_/],
+    skipWaiting: true,
+    clientsClaim: true
+});
 
-// // Define precache injection point.
-// workboxSW.precache([]);
+// Define precache injection point.
+workboxSW.precache([]);
 
 /**
  * example runningCache with api
